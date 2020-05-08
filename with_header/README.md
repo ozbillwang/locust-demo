@@ -2,7 +2,7 @@
 
 ### Usage
 
-1. deploy serverless first
+1. deploy aws api gateway with [serverless framework](https://www.serverless.com/) first
 
 Make sure you have aws account and [set the AWS_PROFILE properly](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
