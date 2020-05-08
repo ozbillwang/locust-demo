@@ -59,3 +59,12 @@ host is the api server, in above sample, it is https://9m3phqy030.execute-api.us
 ![](images/console.png)
 
 ![](images/show-case.png)
+
+5. remove the api gateway
+
+After finished the test, you can remove the api gateway
+
+```
+$ cd serverless
+$ serverless remove
+```

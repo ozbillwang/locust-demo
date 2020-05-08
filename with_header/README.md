@@ -27,13 +27,13 @@ region: us-east-1
 stack: api-gateway-by-api-key-dev
 resources: 38
 api keys:
-  api-gateway-by-api-key-dev-api-key: PymRm7Hil4509Lj7yhbCP8haPVB7Qd9Sa3OskCjp
+  api-gateway-by-api-key-dev-api-key: M0wAqzfLRe2ZkX5SaYKqh8lDRic0X8bG6068x7LL
 endpoints:
-  POST - https://1ymxtrwh4e.execute-api.us-east-1.amazonaws.com/dev/todos
-  GET - https://1ymxtrwh4e.execute-api.us-east-1.amazonaws.com/dev/todos
-  GET - https://1ymxtrwh4e.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
-  PUT - https://1ymxtrwh4e.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
-  DELETE - https://1ymxtrwh4e.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  POST - https://w8xnk0eeuf.execute-api.us-east-1.amazonaws.com/dev/todos
+  GET - https://w8xnk0eeuf.execute-api.us-east-1.amazonaws.com/dev/todos
+  GET - https://w8xnk0eeuf.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  PUT - https://w8xnk0eeuf.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  DELETE - https://w8xnk0eeuf.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
 functions:
   create: api-gateway-by-api-key-dev-create
   list: api-gateway-by-api-key-dev-list
@@ -44,6 +44,8 @@ layers:
   None
 ```
 2. Update api key in file [locustfile.py](locustfile.py)
+
+In this sample, the api key is `M0wAqzfLRe2ZkX5SaYKqh8lDRic0X8bG6068x7LL`
 
 3. run the locust test
 
@@ -57,4 +59,15 @@ locust
 
 host is the api server, in above sample, it is https://1ymxtrwh4e.execute-api.us-east-1.amazonaws.com
 
+![](images/header-1.png)
 
+![](images/header-2.png)
+
+5. remove the api gateway
+
+After finished the test, you can remove the api gateway
+
+```
+$ cd serverless
+$ serverless remove
+```
