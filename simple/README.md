@@ -58,4 +58,4 @@ host is the api server, in above sample, it is https://9m3phqy030.execute-api.us
 
 ![](images/console.png)
 
-![](show-case.png)
+![](images/show-case.png)
