@@ -20,7 +20,7 @@ If you missed the detail, you can run
 
 ```
 $ cd serverless
-$ sls info
+$ serverless info
 Service Information
 service: serverless-rest-api-with-dynamodb
 stage: dev
@@ -52,7 +52,7 @@ Make sure you have [installed locust](https://docs.locust.io/en/stable/installat
 locust
 ```
 
-4. open browser with http://localhost:8089
+3. open browser with http://localhost:8089
 
 host is the api server, in above sample, it is https://9m3phqy030.execute-api.us-east-1.amazonaws.com
 
@@ -60,7 +60,7 @@ host is the api server, in above sample, it is https://9m3phqy030.execute-api.us
 
 ![](images/show-case.png)
 
-5. remove the api gateway
+4. remove the api gateway
 
 After finished the test, you can remove the api gateway
 

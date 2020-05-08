@@ -19,7 +19,8 @@ After deployed, you should see the api gateway url and its api key
 If you missed the detail, you can run
 
 ```
-$ sls info
+$ cd serverless
+$ serverless info
 Service Information
 service: api-gateway-by-api-key
 stage: dev
