@@ -4,7 +4,7 @@
 
 1. deploy serverless first
 
-Make sure you have aws account and [set the AWS_PROFILE properly](set the AWS_PROFILE properly)
+Make sure you have aws account and [set the AWS_PROFILE properly](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 ```
 $ pushd serverless
