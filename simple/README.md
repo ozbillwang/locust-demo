@@ -1,4 +1,4 @@
-# run locust test on api gateway with header `x-api-key`
+# run locust test on api gateway
 
 ### Usage
 
