@@ -56,4 +56,6 @@ locust
 
 host is the api server, in above sample, it is https://9m3phqy030.execute-api.us-east-1.amazonaws.com
 
+![](images/console.png)
 
+![](show-case.png)
