@@ -1,6 +1,7 @@
 from locust import HttpLocust, TaskSet, between
 
-api_key = "PymRm7Hil4509Lj7yhbCP8haPVB7Qd9Sa3OskCjp"
+# update the api key with real one
+api_key = "M0wAqzfLRe2ZkX5SaYKqh8lDRic0X8bG6068x7LL"
 
 def post(l):
     l.client.post("/dev/todos", json={"text": "Learn Serverless"}, headers={"x-api-key": api_key})

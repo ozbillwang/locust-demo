@@ -7,13 +7,14 @@
 Make sure you have aws account and [set the AWS_PROFILE properly](set the AWS_PROFILE properly)
 
 ```
-$ cd serverless
+$ pushd serverless
 $ npm install -g serverless
 $ npm install
 $ serverless deploy
+$ popd
 ```
 
-After deployed, you should see the api gateway url and its api_key
+After deployed, you should see the api gateway url and its api key
 
 If you missed the detail, you can run
 
